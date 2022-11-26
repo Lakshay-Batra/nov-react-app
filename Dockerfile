@@ -1,4 +1,6 @@
-FROM node:14
+# Using light weight base image
+
+FROM node:14-alpine
 
 WORKDIR /app
 
